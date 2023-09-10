@@ -7,8 +7,8 @@ app.get('/', (req, res) => {
   const track = req.query.track;
   const current_day = new Date().toLocaleString('en-us', {  weekday: 'long' });
   const utc_time = new Date().toISOString();
-  const github_file_url = 'https://';
-  const github_repo_url = 'https://';
+  const github_file_url = 'https://github.com/darad124/project-1/blob/main/server.js';
+  const github_repo_url = 'https://github.com/darad124/project-1';
   const status_code = 200;
 
   res.json({
